@@ -1,7 +1,7 @@
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
-Question 4:
+\Question 4:
 - A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
    - The two paths are different, both starting and ending in different places. The line on both graphs is jagged because there are lots of abrupt turns. Both graphs have a mix of periods where the line is going in one direction, and periods with many turns in sequence. The values on the axis of the graphs are different. Both graphs show a time period of '500'
 
