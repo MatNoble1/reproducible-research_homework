@@ -11,7 +11,8 @@ Question 4:
 - Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
 
 - Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
-   - 
+   - ![image](https://github.com/MatNoble1/reproducible-research_homework/assets/147311707/a327fd43-bf18-4012-bdcf-760c08eb3b47)
+
 
 ## Instructions
 
