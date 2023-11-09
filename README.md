@@ -1,6 +1,17 @@
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
+Question 4:
+- A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
+   - The two paths are different, both starting and ending in different places. The line on both graphs is jagged because there are lots of abrupt turns. Both graphs have a mix of periods where the line is going in one direction, and periods with many turns in sequence. The values on the axis of the graphs are different. Both graphs show a time period of '500'
+
+- Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
+   - The random number generation which R does is done by a pseudo random number generator, which means that its not truly random. Instead, there is a massive but finite  number of different patterns that can be generated. A random seed sets the starting conditions for a pattern to be generated, and so if you use the same random seed/starting conditions every time, you will get the same pattern/numbers generated.
+ 
+- Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
+
+- Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
+   - 
 
 ## Instructions
 
