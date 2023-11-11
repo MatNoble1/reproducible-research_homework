@@ -1,7 +1,7 @@
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
-Question 4:
+\Question 4:
 - A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
    - The two paths are different, both starting and ending in different places. The line on both graphs is jagged because there are lots of abrupt turns. Both graphs have a mix of periods where the line is going in one direction, and periods with many turns in sequence. The values on the axis of the graphs are different. Both graphs show a time period of '500'
 
@@ -11,7 +11,27 @@ Question 4:
 - Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
 
 - Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
-   - 
+   - ![image](https://github.com/MatNoble1/reproducible-research_homework/assets/147311707/a327fd43-bf18-4012-bdcf-760c08eb3b47)
+
+Question 5:
+- Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)
+ - 13 columns, 34 rows (including the column headers)
+   
+- What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
+   - Logging both the x and y axis
+     
+- Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
+   - beta = 0.12172, alpha = 0.4708 (working out is in Transforming_data)
+   - p value for intercept = 0.00753, p value for gradient/log(virion_volume_nm_nm_nm) = 6.44e-10
+   - Both p values are statisctically significant at a significance level of 0.01
+   - Both of my values are completely different to those in the table, the exponent (alpha) is more similar, but the scaling factor (beta) is completely different
+ 
+   - Write the code to reproduce the figure shown below. (10 points)
+
+  <p align="center">
+     <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
+  </p>
+
 
 ## Instructions
 
