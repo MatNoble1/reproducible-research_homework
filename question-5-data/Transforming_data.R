@@ -50,5 +50,3 @@ ggplot(data1, aes(x = log(virion_volume_nm_nm_nm), y = log(genome_length_kb)))+
 #V = betaL^alpha
 #V = 0.12172 x (300^0.4708)
 #V = 1.785
-
-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
