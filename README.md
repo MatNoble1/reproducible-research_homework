@@ -36,8 +36,8 @@ Question 5:
   - I obtained two different estimates, one based on the Allometric exponent and Scaling factor in linked the paper (6884014.616 nm3), and one based on the Allometric 
   exponent and Scaling factor that I worked out (1.785 nm3). Working out is contained in Tranforming_data
 
-**Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).
-  - 
+- Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).
+  - The terms reproducibility and replicability don't have set definitions and some researchers use them to mean different things, however the most common distinction I found between them was that reproducibility is taken to mean being able to produce the same results using the same data and method that the original researcher used, while replicability is the ability to produce the same results when the entire experimentla process is replicated (new data is collected and a new method/code is created)
 
 ## Instructions
 
