@@ -23,6 +23,7 @@ plot(model1)
 
 model2 <- lm(log(genome_length_kb) ~ log(virion_volume_nm_nm_nm), data = data1)
 plot(model2)
+#These plots indicate model 2 is a better linear model
 
 #Get equation of linear model
 summary(model2)
